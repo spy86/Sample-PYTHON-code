@@ -16,7 +16,7 @@ class Test(unittest.TestCase):
 
     def test_fullpage_screenshot(self):
         ''' Generate document-height screenshot '''
-        url = "https://www.grecos.pl/"
+        url = "https://www.mmichalski.com/"
         self.driver.get(url)
         util.fullpage_screenshot(self.driver, "test.png")
 
